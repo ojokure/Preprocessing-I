@@ -157,7 +157,7 @@ body .section1 h1 {
 }
 html .section1 h2,
 body .section1 h2 {
-  font-size: 150%;
+  font-size: 200%;
 }
 html .section1 .ojodrinkwater,
 body .section1 .ojodrinkwater {
@@ -195,20 +195,17 @@ html .section2 .profile,
 body .section2 .profile {
   width: 30%;
 }
-html .section2 .skill,
-body .section2 .skill {
-  widows: 30px;
+html .section2 .skills,
+body .section2 .skills {
+  width: 30%;
 }
 html table,
-body table,
-html th,
-body th,
-html td,
-body td {
-  border: 1px solid black;
+body table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
+  text-align: start;
+  border: 10px;
 }
 html footer,
 body footer {
