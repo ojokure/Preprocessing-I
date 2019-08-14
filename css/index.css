@@ -134,8 +134,25 @@ html,
 body {
   height: 100%;
 }
-html .navigationbar,
-body .navigationbar {
+html .navigation,
+body .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+html .navigation a,
+body .navigation a {
+  margin: 10px;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: grey;
+}
+html .section1,
+body .section1 {
+  background-color: #E9ECEF;
+  margin-top: 10px;
+}
+html .section1 .ojopic,
+body .section1 .ojopic {
+  width: 30%;
+  padding: 1rem;
 }
