@@ -151,10 +151,53 @@ body .section1 {
   background-color: #A8A8A8;
   margin-top: 10px;
 }
+html .section1 h1,
+body .section1 h1 {
+  font-size: 200%;
+}
+html .section1 h2,
+body .section1 h2 {
+  font-size: 150%;
+}
+html .section1 .ojodrinkwater,
+body .section1 .ojodrinkwater {
+  font-size: 200%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1 px black;
+}
 html .section1 .ojopic,
 body .section1 .ojopic {
   width: 30%;
   padding: 1rem;
+}
+html .section1 .firstP,
+body .section1 .firstP {
+  margin-left: 20px;
+  font-style: italic;
+}
+html .section1 button,
+body .section1 button {
+  background-color: #E9ECEF;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-style: italic;
+  border-radius: 6px;
+}
+html .section2,
+body .section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+html .section2 .profile,
+body .section2 .profile {
+  width: 30%;
+}
+html .section2 .skill,
+body .section2 .skill {
+  widows: 30px;
 }
 html table,
 body table,
