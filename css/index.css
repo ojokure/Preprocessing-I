@@ -134,25 +134,42 @@ html,
 body {
   height: 100%;
 }
-@h 2fonts : 2.5
-	
-	.navigation {
+html .navigation,
+body .navigation {
   display: flex;
   justify-content: flex-end;
-  a {
-    margin: 10px;
-    padding-bottom: 2rem;
-    text-decoration: none;
-    color: grey;
-  }
+}
+html .navigation a,
+body .navigation a {
+  margin: 10px;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: grey;
 }
 html .section1,
 body .section1 {
-  background-color: #E9ECEF;
+  background-color: #A8A8A8;
   margin-top: 10px;
 }
 html .section1 .ojopic,
 body .section1 .ojopic {
   width: 30%;
   padding: 1rem;
+}
+html table,
+body table,
+html th,
+body th,
+html td,
+body td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+html footer,
+body footer {
+  text-align: center;
+  background-color: #A8A8A8;
+  padding: 25px;
 }

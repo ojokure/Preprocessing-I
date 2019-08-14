@@ -53,11 +53,11 @@ table {
     box-sizing: border-box;
 }
 
+@background-color: #A8A8A8;
+
 html, body {
 	height: 100%;
 
-	@h1fonts : 3.2em;
-	@h2fonts : 2.5
 	
 	.navigation {
 		display: flex;
@@ -72,7 +72,7 @@ html, body {
 		
 	}
 	.section1{
-		background-color: #E9ECEF;
+		background-color:@background-color;
 		margin-top: 10px;
 	.ojopic  {
 		width: 30%;
@@ -81,7 +81,17 @@ html, body {
 	   }
 	}
 
-
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		width:100%;
+		margin-bottom: 20px;
+	  }
+	  footer{
+		  text-align: center;
+		  background-color:@background-color;
+		  padding:25px;
+	  }
 
 }
 
