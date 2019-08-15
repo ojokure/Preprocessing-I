@@ -1,1 +1,215 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html .navigation,
+body .navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+html .navigation a,
+body .navigation a {
+  margin: 10px;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: grey;
+}
+html .section1,
+body .section1 {
+  background-color: #A8A8A8;
+  margin-top: 10px;
+}
+html .section1 h1,
+body .section1 h1 {
+  font-size: 200%;
+}
+html .section1 h2,
+body .section1 h2 {
+  font-size: 200%;
+}
+html .section1 .ojodrinkwater,
+body .section1 .ojodrinkwater {
+  font-size: 200%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1 px black;
+}
+html .section1 .ojopic,
+body .section1 .ojopic {
+  width: 30%;
+  padding: 1rem;
+}
+html .section1 .firstP,
+body .section1 .firstP {
+  margin-left: 20px;
+  font-style: italic;
+}
+html .section1 button,
+body .section1 button {
+  background-color: #E9ECEF;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-style: italic;
+  border-radius: 6px;
+}
+html .section2,
+body .section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+html .section2 .profile,
+body .section2 .profile {
+  width: 30%;
+}
+html .section2 .skills,
+body .section2 .skills {
+  width: 30%;
+}
+html table,
+body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: start;
+  border: 10px;
+}
+html footer,
+body footer {
+  text-align: center;
+  background-color: #A8A8A8;
+  padding: 25px;
+}
